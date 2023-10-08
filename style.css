@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Main Body */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+/* Top Nav */
+
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5%;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+}
+
+#navigation {
+  display: flex;
+  width: 50%;
+  align-items: normal;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+#navigation a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Hero Banner */
+
+#heroBanner {
+  margin: 0px 5%;
+  display: grid;
+  min-height: 500px;
+  height: 50vh;
+}
+
+#page-section {
+align-items: center;
+margin: auto;
+}
+
+#portfolio1 {
+  background-image: url("../images/02-hero-bg.jpg");
+}
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid grey;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+  padding: 25px;
+  max-width: 550px;
+  z-index: 100;
+}
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.subHeading {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 600px;
+  margin: 20px auto 20px auto;
+}
+
+
+.heading {
+  padding: 15px 15px 15px 15px;
+  height: 25px;
+  color: black;
+  font-size: 18px;
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid grey;
+  right: -50%;
+  padding: 75px;
+  max-width: 250px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: auto;
+  color: color grey;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0px 0px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0px 0px;
+  }
+
+#about p {
+  text-align: center;
+  max-width: 700px;
+  font-size: 12px;
+  font-weight: 300;
+  margin: 20px auto 20px auto;
+  color: #636364;
+}
+
+/* Grid CSS */
+
+#categoryGrid {
+  margin: 0px 5%;
+  display: grid;
+  grid-template-rows: 500px 250px 250px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+  "redportfolio redportfolio"
+  "greenportfolio yellowportfolio"
+  "blueportfolio orangeportfolio";
+}
+
+#redportfolio {
+  grid-area: redportfolio;
+  background-image: url("../images/02-portfolio-1.jpg");
+
+}
+#greenportfolio {
+  grid-area: greenportfolio;
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#yellowportfolio {
+  grid-area: yellowportfolio;
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+#blueportfolio {
+  grid-area: blueportfolio;
+  background-image: url("../images/02-portfolio-4.jpg");
+}
+
+#orangeportfolio {
+  grid-area: orangeportfolio;
+  background-image: url("../images/02-run-buddy.jpg");
+}
+
+.categoryGridArea {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px;
+  cursor: pointer;
+  display: grid;
+  align-content: normal;
+}
+
+/* Footer Styles */
+
+#contact {
+  text-align: center;
+  border-bottom: 2px solid black;
+  width: 600px;
+  margin: 20px auto 20px auto;
+}
+
+#navBar2 {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5%;
+}
+
+#navigation2 {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#navigation2 a {
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+/* Media Queries */
+
+
+@media only screen and (max-width: 1000px) {
+  #navigation {
+    display: none;
+}
+}
+@media only screen and (max-width: 600px) {
+  #headline {
+    position: static;
+    margin: 20px;
+  }
+  #heroBanner {
+    grid-template-areas:
+    "redportfolio redportfolio"
+    "greenportfolio yellowportfolio"
+    "blueportfolio orangeportfolio";
+  }
+  #categoryGrid {
+    grid-template-rows: 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "redportfolio"
+      "greenportfolio"
+      "yellowportfolio"
+      "blueportfolio"
+      "orangeportfolio"
+    ;}
+  }
