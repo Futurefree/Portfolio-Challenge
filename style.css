@@ -50,7 +50,7 @@ margin: auto;
 }
 
 #portfolio1 {
-  background-image: url("../images/02-hero-bg.jpg");
+  background-image: url("../02-hero-bg.jpg");
 }
 
 #headline {
@@ -136,27 +136,27 @@ h4 {
 
 #redportfolio {
   grid-area: redportfolio;
-  background-image: url("../images/02-portfolio-1.jpg");
+  background-image: url("../02-portfolio-1.jpg");
 
 }
 #greenportfolio {
   grid-area: greenportfolio;
-  background-image: url("../images/02-portfolio-2.jpg");
+  background-image: url("../02-portfolio-2.jpg");
 }
 
 #yellowportfolio {
   grid-area: yellowportfolio;
-  background-image: url("../images/02-portfolio-3.jpg");
+  background-image: url("../02-portfolio-3.jpg");
 }
 
 #blueportfolio {
   grid-area: blueportfolio;
-  background-image: url("../images/02-portfolio-4.jpg");
+  background-image: url("../02-portfolio-4.jpg");
 }
 
 #orangeportfolio {
   grid-area: orangeportfolio;
-  background-image: url("../images/02-run-buddy.jpg");
+  background-image: url("../02-run-buddy.jpg");
 }
 
 .categoryGridArea {
