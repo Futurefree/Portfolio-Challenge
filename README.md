@@ -9,9 +9,9 @@ This is a repo of my latest portfolio project using Grid and Flexbox. This allow
 
 Screenshots to Show:
 
-<img src="https://github.com/Futurefree/Portfolio-Challenge/Screenshots/Screenshot%202023-10-13%20at%2019.51.53.png" style=" width:100px ; height:100px "/>
+<img src="Screenshots/Screenshot 2023-10-13 at 19.51.53.png"/>
 
-<img src="https://github.com/Futurefree/Portfolio-Challenge/Screenshots/Screenshot%202023-10-13%20at%2020.02.39.png" style=" width:100px ; height:100px "/>
+<img src="Screenshots/Screenshot 2023-10-13 at 20.02.39.png"/>
 
 Installation
 To install this code, please use BASH or Terminal. You may also require Homebrew (https://brew.sh/). Please then use the SSH keys to clone this to your system and open in your code programme of choice. VScode is reccomended (https://code.visualstudio.com/)
