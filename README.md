@@ -7,6 +7,11 @@ Portfolio Challenge for John Skidmore // Web Developer
 Description
 This is a repo of my latest portfolio project using Grid and Flexbox. This allows you to see the various projects I've worked on.
 
+Screenshots to Show:
+
+![Nav and Hero Banner] (https://github.com/Futurefree/Portfolio-Challenge/blob/8a3234448af997b3410b4946fd1ab8b7be3a72df/Screenshots/Screenshot%202023-10-13%20at%2019.51.53.png)
+![Portfolio Cards] (https://github.com/Futurefree/Portfolio-Challenge/blob/8a3234448af997b3410b4946fd1ab8b7be3a72df/Screenshots/Screenshot%202023-10-13%20at%2020.02.39.png)
+
 Installation
 To install this code, please use BASH or Terminal. You may also require Homebrew (https://brew.sh/). Please then use the SSH keys to clone this to your system and open in your code programme of choice. VScode is reccomended (https://code.visualstudio.com/)
 
