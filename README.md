@@ -7,6 +7,8 @@ Portfolio Challenge for John Skidmore // Web Developer
 Description
 This is a repo of my latest portfolio project using Grid and Flexbox. This allows you to see the various projects I've worked on.
 
+Link to the live website: https://futurefree.github.io/Portfolio-Challenge/
+
 Screenshots to Show:
 
 <img src="Screenshots/Screenshot 2023-10-13 at 19.51.53.png"/>
