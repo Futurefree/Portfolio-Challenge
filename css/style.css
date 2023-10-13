@@ -49,7 +49,7 @@ align-items: center;
 margin: auto;
 }
 
-#portfolio1 {
+#portfolio-hero-banner {
   background-image: url("02-hero-bg.jpg");
 }
 
@@ -129,33 +129,33 @@ h4 {
   grid-template-rows: 500px 250px 250px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "redportfolio redportfolio"
-  "greenportfolio yellowportfolio"
-  "blueportfolio orangeportfolio";
+  "portfolio-card-red portfolio-card-red"
+  "portfolio-card-green portfolio-card-yellow"
+  "portfolio-card-blue portfolio-card-orange";
 }
 
-#redportfolio {
-  grid-area: redportfolio;
+#portfolio-card-red {
+  grid-area: portfolio-card-red;
   background-image: url("02-portfolio-1.jpg");
 
 }
-#greenportfolio {
-  grid-area: greenportfolio;
+#portfolio-card-green {
+  grid-area: portfolio-card-green;
   background-image: url("02-portfolio-2.jpg");
 }
 
-#yellowportfolio {
-  grid-area: yellowportfolio;
+#portfolio-card-yellow {
+  grid-area: portfolio-card-yellow;
   background-image: url("02-portfolio-3.jpg");
 }
 
-#blueportfolio {
-  grid-area: blueportfolio;
+#portfolio-card-blue {
+  grid-area: portfolio-card-blue;
   background-image: url("02-portfolio-4.jpg");
 }
 
-#orangeportfolio {
-  grid-area: orangeportfolio;
+#portfolio-card-orange {
+  grid-area: portfolio-card-orange;
   background-image: url("02-run-buddy.jpg");
 }
 
@@ -213,18 +213,18 @@ h4 {
   }
   #heroBanner {
     grid-template-areas:
-    "redportfolio redportfolio"
-    "greenportfolio yellowportfolio"
-    "blueportfolio orangeportfolio";
+  "portfolio-card-red portfolio-card-red"
+  "portfolio-card-green portfolio-card-yellow"
+  "portfolio-card-blue portfolio-card-orange";
   }
   #categoryGrid {
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas:
-      "redportfolio"
-      "greenportfolio"
-      "yellowportfolio"
-      "blueportfolio"
-      "orangeportfolio"
+      "portfolio-card-red"
+      "portfolio-card-green"
+      "portfolio-card-yellow"
+      "portfolio-card-blue"
+      "portfolio-card-orange"
     ;}
   }
