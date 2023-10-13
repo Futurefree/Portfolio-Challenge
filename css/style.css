@@ -49,8 +49,8 @@ align-items: center;
 margin: auto;
 }
 
-#portfolio-hero-banner {
-  background-image: url("02-hero-bg.jpg");
+#portfolioHeroBanner {
+  background-image: url("../images/02-hero-bg.jpg");
 }
 
 #headline {
@@ -121,6 +121,13 @@ h4 {
   color: #636364;
 }
 
+.johnProfile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
 /* Grid CSS */
 
 #categoryGrid {
@@ -129,34 +136,34 @@ h4 {
   grid-template-rows: 500px 250px 250px;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
-  "portfolio-card-red portfolio-card-red"
-  "portfolio-card-green portfolio-card-yellow"
-  "portfolio-card-blue portfolio-card-orange";
+  "portfolioCardRed portfolioCardRed"
+  "portfolioCardGreen portfolioCardYellow"
+  "portfolioCardBlue portfolioCardOrange";
 }
 
-#portfolio-card-red {
-  grid-area: portfolio-card-red;
-  background-image: url("02-portfolio-1.jpg");
+#portfolioCardRed {
+  grid-area: portfolioCardRed;
+  background-image: url("../images/02-portfolio-1.jpg");
 
 }
-#portfolio-card-green {
-  grid-area: portfolio-card-green;
-  background-image: url("02-portfolio-2.jpg");
+#portfolioCardGreen {
+  grid-area: portfolioCardGreen;
+  background-image: url("../images/02-portfolio-2.jpg");
 }
 
-#portfolio-card-yellow {
-  grid-area: portfolio-card-yellow;
-  background-image: url("02-portfolio-3.jpg");
+#portfolioCardYellow {
+  grid-area: portfolioCardYellow;
+  background-image: url("../images/02-portfolio-3.jpg");
 }
 
-#portfolio-card-blue {
-  grid-area: portfolio-card-blue;
-  background-image: url("02-portfolio-4.jpg");
+#portfolioCardBlue {
+  grid-area: portfolioCardBlue;
+  background-image: url("../images/02-portfolio-4.jpg");
 }
 
-#portfolio-card-orange {
-  grid-area: portfolio-card-orange;
-  background-image: url("02-run-buddy.jpg");
+#portfolioCardOrange {
+  grid-area: portfolioCardOrange;
+  background-image: url("../images/02-run-buddy.jpg");
 }
 
 .categoryGridArea {
@@ -213,18 +220,17 @@ h4 {
   }
   #heroBanner {
     grid-template-areas:
-  "portfolio-card-red portfolio-card-red"
-  "portfolio-card-green portfolio-card-yellow"
-  "portfolio-card-blue portfolio-card-orange";
+  "portfolioCardRed portfolioCardRed"
+  "portfolioCardGreen portfolioCardYellow"
+  "portfolioCardRedBlue portfolioCardRedOrange";
   }
   #categoryGrid {
     grid-template-rows: 300px 300px 300px 300px 300px;
     grid-template-columns: 1fr;
     grid-template-areas:
-      "portfolio-card-red"
-      "portfolio-card-green"
-      "portfolio-card-yellow"
-      "portfolio-card-blue"
-      "portfolio-card-orange"
-    ;}
+      "portfolioCardRed"
+      "portfolioCardGreen"
+      "portfolioCardYellow"
+      "portfolioCardRedBlue"
+      "portfolioCardOrange";}
   }
